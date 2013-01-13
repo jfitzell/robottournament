@@ -1,0 +1,14 @@
+{
+	"category" : "RobotTournament-REST",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RTRestfulHandler",
+	"pools" : [
+		 ],
+	"super" : "WARestfulHandler",
+	"type" : "normal" }
