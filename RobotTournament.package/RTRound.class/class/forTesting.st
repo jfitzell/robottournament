@@ -1,3 +1,3 @@
 *robottournament-tests
 forTesting
-	^ RTTournament forTesting rounds first
+	^ (RTTournament forTesting start; rounds) first

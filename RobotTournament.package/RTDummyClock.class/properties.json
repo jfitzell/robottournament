@@ -1,19 +1,13 @@
 {
-	"category" : "RobotTournament",
+	"category" : "RobotTournament-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"name",
-		"players",
-		"rounds",
-		"length",
-		"clock",
-		"interval",
-		"nextStart" ],
-	"name" : "RTTournament",
+		"now" ],
+	"name" : "RTDummyClock",
 	"pools" : [
 		 ],
 	"super" : "Object",

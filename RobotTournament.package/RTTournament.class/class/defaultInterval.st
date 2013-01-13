@@ -1,0 +1,3 @@
+defaults
+defaultInterval
+	^ 300
