@@ -1,5 +1,6 @@
 tests
 testKicking
+	tournament length: 2.
 	tournament start.
 	self assert: tournament timeRemaining = tournament interval.
 	tournament kick.
@@ -19,4 +20,4 @@ testKicking
 	self assert: tournament timeRemaining = -1.
 	tournament kick.
 	self assert: tournament rounds second hasStarted.
-	self assert: tournament timeRemaining = tournament interval.
+	self assert: tournament timeRemaining = 0

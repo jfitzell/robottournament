@@ -1,3 +1,6 @@
 accessing
 timeRemaining
-	^ (nextStart - clock now) asSeconds
+	^ pausedTimeRemaining ifNil: [
+		nextStart
+			ifNil: [ 0 ]
+			ifNotNil: [ :start | (start - clock now) asSeconds ] ]
