@@ -8,8 +8,10 @@ listenDuring: connectorBlock receiving: stateBlock responding: moveBlock
 			[ serverSocket waitForDataFor: 1.
 			state := serverSocket receiveDataTimeout: 1.
 			stateBlock value: state.
-			serverSocket sendData: moveBlock value ]
-				ensure: [ serverSocket close; destroy ] ] ] fork.
+			(moveBlock isBlock and: [ moveBlock argumentCount = 1 ])
+				ifTrue: [ moveBlock value: serverSocket ]
+				ifFalse: [ serverSocket sendData: moveBlock value ] ]
+					ensure: [ serverSocket close; destroy ] ] ] fork.
 	connectorBlock value: listener localPort ]
 		ensure: [
 			listener close; destroy.

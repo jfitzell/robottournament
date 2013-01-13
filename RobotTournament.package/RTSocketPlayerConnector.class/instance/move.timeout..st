@@ -6,11 +6,10 @@ move: stateString timeout: timeoutMilliseconds
 	socket connectTo: serverAddr port: port waitForConnectionFor: (connectionTimeout / 1000).
 	socket sendData: stateString.
 	time := Time millisecondsToRun: [
-		socket waitForDataFor: 1.
-		move := socket receiveData ] ]
+		move := self receiveDataFrom: socket timeout: timeoutMilliseconds ] ]
 			on: NetworkError
 			do: [ ^ nil ] ]
-				ensure: [ socket close; destroy ].
+				ensure: [ socket closeAndDestroy: 1 ].
 	^ time > timeoutMilliseconds
 		ifTrue: [ nil ]
 		ifFalse: [ move ]
