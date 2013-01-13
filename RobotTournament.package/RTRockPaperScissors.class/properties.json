@@ -6,11 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"round",
-		"players",
-		"results" ],
+		 ],
 	"name" : "RTRockPaperScissors",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "RTGame",
 	"type" : "normal" }

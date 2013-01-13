@@ -1,4 +1,4 @@
-running
+private
 scoreMoves: moves
 	| possibleMoves winner m1 m2 |
 	m1 := moves first.

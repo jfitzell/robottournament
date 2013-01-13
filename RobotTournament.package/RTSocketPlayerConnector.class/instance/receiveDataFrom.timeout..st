@@ -9,7 +9,7 @@ receiveDataFrom: socket timeout: timeoutMilliseconds
 			remaining <= 0
 				ifTrue: [ socket closeAndDestroy: 1 ]
 				ifFalse: [
-					[ socket waitForDataFor: remaining.
+					[ socket waitForDataFor: (remaining / 1000).
 					stream nextPutAll: socket receiveData ]
 						on: ConnectionClosed
 						do: [ :e | socket closeAndDestroy: 1 ] ] ] ]

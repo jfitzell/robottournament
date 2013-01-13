@@ -1,0 +1,14 @@
+{
+	"category" : "RobotTournament",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"url" ],
+	"name" : "RTHttpGetPlayerConnector",
+	"pools" : [
+		 ],
+	"super" : "RTPlayerConnector",
+	"type" : "normal" }

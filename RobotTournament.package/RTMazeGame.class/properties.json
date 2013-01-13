@@ -1,0 +1,18 @@
+{
+	"category" : "RobotTournament",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"winner",
+		"maxRounds",
+		"currentRound",
+		"forfeit",
+		"maze" ],
+	"name" : "RTMazeGame",
+	"pools" : [
+		 ],
+	"super" : "RTGame",
+	"type" : "normal" }

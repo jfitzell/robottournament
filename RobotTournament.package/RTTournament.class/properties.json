@@ -13,7 +13,8 @@
 		"clock",
 		"interval",
 		"nextStart",
-		"pausedTimeRemaining" ],
+		"pausedTimeRemaining",
+		"game" ],
 	"name" : "RTTournament",
 	"pools" : [
 		 ],

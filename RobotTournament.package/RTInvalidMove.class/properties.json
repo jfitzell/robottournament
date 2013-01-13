@@ -1,0 +1,14 @@
+{
+	"category" : "RobotTournament",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RTInvalidMove",
+	"pools" : [
+		 ],
+	"super" : "Error",
+	"type" : "normal" }

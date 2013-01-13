@@ -1,0 +1,14 @@
+{
+	"category" : "RobotTournament",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RTWallCollision",
+	"pools" : [
+		 ],
+	"super" : "Error",
+	"type" : "normal" }

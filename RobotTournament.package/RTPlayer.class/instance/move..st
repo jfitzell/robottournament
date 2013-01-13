@@ -1,3 +1,6 @@
 running
 move: aGame
-	^ self connector move: (aGame stateForPlayer: self) timeout: 1000
+	| move |
+	move := self connector move: (aGame stateForPlayer: self) timeout: 1000.
+	Transcript show: (self name, ': ', move asString); cr.
+	^ move

@@ -5,5 +5,6 @@ play
 	self prepare.
 	
 	state := #playing.
+	Transcript show: self name; cr.
 	runner playAll: games.
 	state := #ended

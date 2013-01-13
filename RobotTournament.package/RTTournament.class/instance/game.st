@@ -1,3 +1,3 @@
 accessing
 game
-	^ self class defaultGame
+	^ game ifNil: [ self class defaultGame ]

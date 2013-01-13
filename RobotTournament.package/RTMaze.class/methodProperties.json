@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"fromString:" : "jf 12/17/2012 09:29" },
+	"instance" : {
+		"currentMapString" : "jf 12/17/2012 21:16",
+		"initializeWithMapString:" : "jf 12/17/2012 18:57",
+		"move:direction:" : "jf 12/17/2012 19:14",
+		"parseMap:" : "jf 12/17/2012 18:56",
+		"positionAt:" : "jf 12/17/2012 09:53",
+		"positionAt:put:" : "jf 12/17/2012 09:40",
+		"xDeltaOf:" : "jf 12/17/2012 09:51",
+		"yDeltaOf:" : "jf 12/17/2012 09:51" } }

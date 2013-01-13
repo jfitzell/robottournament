@@ -1,0 +1,15 @@
+{
+	"category" : "RobotTournament",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"map",
+		"positions" ],
+	"name" : "RTMaze",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

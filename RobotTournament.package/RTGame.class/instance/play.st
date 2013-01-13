@@ -1,0 +1,3 @@
+running
+play
+	self clearResults
