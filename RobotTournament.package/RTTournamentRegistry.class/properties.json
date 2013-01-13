@@ -1,0 +1,15 @@
+{
+	"category" : "RobotTournament",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"tournaments",
+		"lastKey" ],
+	"name" : "RTTournamentRegistry",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

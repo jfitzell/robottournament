@@ -5,7 +5,7 @@ tournaments
 	<produces: 'application/json'>
 	
 
-	^ (RTTournament allInstances collect: [ :aTournment | 	
+	^ (self tournamentRegistry allTournaments collect: [ :aTournment | 	
 		aTournment jsonDictionary at: #url put: (self urlForTournament: aTournment) greaseString; yourself
 		]) asJson.
 	
