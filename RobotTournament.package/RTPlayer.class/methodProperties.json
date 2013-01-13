@@ -1,15 +1,15 @@
 {
 	"class" : {
-		"forTesting" : "jf 11/29/2012 09:59",
+		"forTesting" : "jf 12/14/2012 20:01",
 		"named:" : "jf 11/29/2012 09:59",
 		"named:url:" : "jf 11/29/2012 10:00",
 		"new" : "jf 11/28/2012 09:31" },
 	"instance" : {
-		"initializeWithName:" : "jf 11/29/2012 09:51",
+		"connector:" : "jf 12/14/2012 20:01",
+		"initializeWithName:" : "jf 12/14/2012 19:59",
 		"move:" : "jf 11/29/2012 15:20",
 		"name" : "jf 11/28/2012 09:17",
 		"name:" : "jf 11/28/2012 09:18",
 		"printOn:" : "jf 11/28/2012 23:57",
-		"runner" : "jf 11/29/2012 15:18",
-		"runner:" : "jf 11/29/2012 09:58",
+		"runner" : "jf 12/14/2012 19:59",
 		"url:" : "jf 11/29/2012 09:53" } }

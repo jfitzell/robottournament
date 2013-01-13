@@ -8,8 +8,8 @@
 	"instvars" : [
 		"response",
 		"requests" ],
-	"name" : "RTDummyPlayerRunner",
+	"name" : "RTDummyPlayerConnector",
 	"pools" : [
 		 ],
-	"super" : "RTPlayerRunner",
+	"super" : "RTPlayerConnector",
 	"type" : "normal" }

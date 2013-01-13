@@ -7,7 +7,7 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"name",
-		"runner" ],
+		"connector" ],
 	"name" : "RTPlayer",
 	"pools" : [
 		 ],

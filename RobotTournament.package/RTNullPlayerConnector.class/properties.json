@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "RTPlayerRunner",
+	"name" : "RTNullPlayerConnector",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "RTPlayerConnector",
 	"type" : "normal" }
