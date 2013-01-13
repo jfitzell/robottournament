@@ -40,7 +40,7 @@ testRunningStates
 	self assert: tournament isRunning.
 	self deny: tournament isPaused.
 	
-	tournament rounds do: [ :each | each play ].
+	tournament playRemainingRounds.
 	self assert: tournament hasStarted.
 	self assert: tournament hasEnded.
 	self deny: tournament isRunning.

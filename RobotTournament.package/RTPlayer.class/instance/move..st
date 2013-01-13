@@ -1,3 +1,3 @@
 running
 move: aGame
-	^ self runner move: aGame
+	^ self connector move: aGame

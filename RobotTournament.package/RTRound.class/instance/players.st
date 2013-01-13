@@ -1,4 +1,5 @@
 accessing
 players
-	self ensureStarted.
-	^ players
+	^ self hasStarted
+		ifTrue: [ players ]
+		ifFalse: [ tournament players ]

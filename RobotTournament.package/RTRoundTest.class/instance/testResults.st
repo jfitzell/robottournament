@@ -8,9 +8,9 @@ testResults
 	
 	self should: [ round results ] raise: Error. "Not started"
 	
-	a runner response: 'rock'.
-	b runner response: 'rock'.
-	c runner response: 'scissors'.
+	a connector response: 'rock'.
+	b connector response: 'rock'.
+	c connector response: 'scissors'.
 
 	round play.
 	

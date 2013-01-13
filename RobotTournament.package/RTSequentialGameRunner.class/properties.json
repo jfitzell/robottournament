@@ -1,14 +1,14 @@
 {
-	"category" : "RobotTournament-Tests",
+	"category" : "RobotTournament",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"runner" ],
-	"name" : "RTGameRunnerTest",
+		 ],
+	"name" : "RTSequentialGameRunner",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "RTGameRunner",
 	"type" : "normal" }

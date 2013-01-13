@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"defaultGameRunner" : "jf 12/14/2012 19:56",
+		"defaultGameRunner" : "jf 12/15/2012 09:16",
 		"forTesting" : "jf 12/14/2012 19:50",
 		"new" : "jf 11/28/2012 14:05",
 		"tournament:" : "jf 11/28/2012 14:01" },
@@ -16,8 +16,8 @@
 		"initializeWithTournament:" : "jf 12/3/2012 14:16",
 		"name" : "jf 11/28/2012 14:13",
 		"number" : "jf 11/28/2012 14:04",
-		"play" : "jf 12/7/2012 00:51",
-		"players" : "jf 12/7/2012 00:35",
+		"play" : "jf 12/15/2012 10:05",
+		"players" : "jf 12/15/2012 10:09",
 		"prepare" : "jf 12/7/2012 00:47",
 		"results" : "jf 12/3/2012 14:36",
 		"runner:" : "jf 12/3/2012 14:09",

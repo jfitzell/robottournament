@@ -2,7 +2,6 @@ tests
 testAllForRound
 	| round games |
 	round := self roundForNumPlayers: 3.
-	round start.
 	games := RTRockPaperScissors allForRound: round.
 	
 	self assert: games size = 6.

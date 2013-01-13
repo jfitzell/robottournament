@@ -1,3 +1,3 @@
 accessing
-runner
+connector
 	^ connector

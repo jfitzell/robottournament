@@ -1,3 +1,0 @@
-tests
-testScheduleGame
-	runner scheduleGame: RTRockPaperScissors forTesting

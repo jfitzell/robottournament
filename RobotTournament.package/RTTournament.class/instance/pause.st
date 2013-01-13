@@ -1,3 +1,4 @@
 running
 pause
-	pausedTimeRemaining := self timeRemaining
+	pausedTimeRemaining := self timeRemaining.
+	nextStart := nil
