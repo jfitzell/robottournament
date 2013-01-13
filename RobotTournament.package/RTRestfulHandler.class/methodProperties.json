@@ -3,6 +3,7 @@
 		"initialize" : "NickAger 1/13/2013 13:29" },
 	"instance" : {
 		"idForTournament:" : "jf 1/13/2013 16:00",
+		"jsonCreateTournament" : "jf 1/13/2013 16:33",
 		"jsonTournament:" : "jf 1/13/2013 16:15",
 		"jsonTournaments" : "jf 1/13/2013 16:16",
 		"tournamentRegistry" : "jf 1/13/2013 15:49",
