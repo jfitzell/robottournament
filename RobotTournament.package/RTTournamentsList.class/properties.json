@@ -1,0 +1,14 @@
+{
+	"category" : "RobotTournament-Components",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"tournaments" ],
+	"name" : "RTTournamentsList",
+	"pools" : [
+		 ],
+	"super" : "WAComponent",
+	"type" : "normal" }

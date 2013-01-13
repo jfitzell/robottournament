@@ -2,9 +2,11 @@
 	"class" : {
 		"initialize" : "NickAger 1/13/2013 13:29" },
 	"instance" : {
+		"htmlTournaments" : "NickAger 1/13/2013 17:34",
 		"idForTournament:" : "jf 1/13/2013 16:00",
 		"jsonTournament:" : "jf 1/13/2013 16:15",
 		"jsonTournaments" : "jf 1/13/2013 16:16",
+		"renderHtmlComponent:" : "NickAger 1/13/2013 17:00",
 		"tournamentRegistry" : "jf 1/13/2013 15:49",
 		"tournamentWithId:" : "jf 1/13/2013 16:04",
 		"urlForTournament:" : "jf 1/13/2013 15:34" } }
