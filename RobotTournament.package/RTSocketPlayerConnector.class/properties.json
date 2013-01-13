@@ -1,0 +1,17 @@
+{
+	"category" : "RobotTournament",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"host",
+		"port",
+		"resolutionTimeout",
+		"connectionTimeout" ],
+	"name" : "RTSocketPlayerConnector",
+	"pools" : [
+		 ],
+	"super" : "RTPlayerConnector",
+	"type" : "normal" }

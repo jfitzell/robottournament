@@ -14,5 +14,8 @@
 		"testPlayPlayer1Wins" : "jf 12/15/2012 09:32",
 		"testPlayPlayer2Wins" : "jf 12/15/2012 09:32",
 		"testPlayTies" : "jf 12/15/2012 09:32",
+		"testTimeoutByBoth" : "jf 12/16/2012 17:17",
+		"testTimeoutByPlayer1" : "jf 12/16/2012 17:16",
+		"testTimeoutByPlayer2" : "jf 12/16/2012 17:17",
 		"validMoves" : "jf 11/30/2012 14:32",
 		"winningPairs" : "jf 11/30/2012 14:37" } }
