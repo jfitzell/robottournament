@@ -1,0 +1,16 @@
+{
+	"category" : "RobotTournament",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"round",
+		"players",
+		"results" ],
+	"name" : "RTRockPaperScissors",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

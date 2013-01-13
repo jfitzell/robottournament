@@ -1,0 +1,3 @@
+defaults
+defaultGameRunner
+	^ RTDummyGameRunner new

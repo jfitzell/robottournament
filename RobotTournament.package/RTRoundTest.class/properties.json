@@ -1,0 +1,15 @@
+{
+	"category" : "RobotTournament-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"round",
+		"tournament" ],
+	"name" : "RTRoundTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

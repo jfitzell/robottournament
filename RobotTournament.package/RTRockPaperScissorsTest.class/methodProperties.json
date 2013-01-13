@@ -1,0 +1,19 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"losingPairs" : "jf 11/30/2012 14:37",
+		"newGame" : "jf 12/3/2012 19:59",
+		"pairsFor:do:" : "jf 11/28/2012 23:59",
+		"roundForNumPlayers:" : "jf 11/28/2012 23:48",
+		"testAllForRound" : "jf 11/28/2012 23:46",
+		"testAllForRoundNotStarted" : "jf 11/28/2012 23:20",
+		"testNew" : "jf 12/3/2012 13:56",
+		"testPlayFoulByBoth" : "jf 11/30/2012 14:25",
+		"testPlayFoulByPlayer1" : "jf 12/3/2012 09:59",
+		"testPlayFoulByPlayer2" : "jf 12/3/2012 09:58",
+		"testPlayPlayer1Wins" : "jf 12/3/2012 09:58",
+		"testPlayPlayer2Wins" : "jf 12/3/2012 09:58",
+		"testPlayTies" : "jf 12/3/2012 09:58",
+		"validMoves" : "jf 11/30/2012 14:32",
+		"winningPairs" : "jf 11/30/2012 14:37" } }

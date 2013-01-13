@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"defaultGame" : "jf 11/28/2012 22:59",
+		"defaultLength" : "jf 11/28/2012 13:56",
+		"forTesting" : "jf 11/28/2012 14:07",
+		"named:" : "jf 11/28/2012 09:37" },
+	"instance" : {
+		"addPlayer:" : "jf 11/28/2012 19:36",
+		"game" : "jf 11/28/2012 22:58",
+		"initializeWithName:" : "jf 11/28/2012 09:38",
+		"name" : "jf 11/28/2012 09:36",
+		"players" : "jf 11/28/2012 09:42",
+		"playersDo:" : "jf 11/28/2012 09:46",
+		"removePlayer:" : "jf 11/28/2012 19:42",
+		"rounds" : "jf 11/28/2012 14:19" } }

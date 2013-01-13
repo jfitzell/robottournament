@@ -1,0 +1,20 @@
+{
+	"class" : {
+		"allForRound:" : "jf 11/28/2012 23:46",
+		"forPlayers:" : "jf 11/28/2012 23:45",
+		"forTesting" : "jf 12/3/2012 19:59",
+		"new" : "jf 12/3/2012 13:56",
+		"setsOfPlayers:sized:" : "jf 11/28/2012 23:41" },
+	"instance" : {
+		"clearResults" : "jf 11/30/2012 09:33",
+		"initializeWithPlayers:" : "jf 11/28/2012 23:43",
+		"isValidMove:" : "jf 11/30/2012 15:02",
+		"play" : "jf 11/30/2012 14:59",
+		"players" : "jf 11/28/2012 23:42",
+		"recordScore:for:" : "jf 12/3/2012 10:03",
+		"recordTie" : "jf 12/3/2012 10:03",
+		"recordWinFor:" : "jf 12/3/2012 10:03",
+		"results" : "jf 11/30/2012 09:32",
+		"scoreMoves:" : "jf 12/3/2012 10:01",
+		"validMoves" : "jf 11/30/2012 15:02",
+		"winnerMove1:move2:" : "jf 11/30/2012 15:07" } }

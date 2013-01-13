@@ -1,0 +1,15 @@
+{
+	"category" : "RobotTournament-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"response",
+		"requests" ],
+	"name" : "RTDummyPlayerRunner",
+	"pools" : [
+		 ],
+	"super" : "RTPlayerRunner",
+	"type" : "normal" }

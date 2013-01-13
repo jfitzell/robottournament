@@ -1,0 +1,3 @@
+setup
+playerName
+	^ 'Dummy Player'

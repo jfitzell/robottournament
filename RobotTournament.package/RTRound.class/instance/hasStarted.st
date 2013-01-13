@@ -1,0 +1,3 @@
+testing
+hasStarted
+	^ state notNil

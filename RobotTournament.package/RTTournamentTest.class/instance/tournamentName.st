@@ -1,0 +1,3 @@
+setup
+tournamentName
+	^ 'Test Tournament'

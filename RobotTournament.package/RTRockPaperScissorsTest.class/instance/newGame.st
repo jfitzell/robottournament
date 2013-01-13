@@ -1,0 +1,3 @@
+helpers
+newGame
+	^ RTRockPaperScissors forTesting
