@@ -1,0 +1,3 @@
+running
+waitForEmpty
+	playAllSemaphore critical: [ ]

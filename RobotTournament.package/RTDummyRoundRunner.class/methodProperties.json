@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"games" : "jf 12/6/2012 22:51",
+		"initialize" : "jf 12/7/2012 00:28",
+		"pause:" : "jf 12/7/2012 00:27",
+		"play:" : "jf 12/7/2012 00:28",
+		"playAll:" : "jf 12/7/2012 00:25",
+		"playedGames" : "jf 12/6/2012 22:51",
+		"waitForEmpty" : "jf 12/7/2012 00:24" } }

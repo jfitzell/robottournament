@@ -3,7 +3,7 @@ testPlayers
 	| a b |
 	a := tournament addPlayer: (RTPlayer forTesting).
 	b := tournament addPlayer: (RTPlayer forTesting).
-	self assert: round players isEmpty.
+	self should: [ round players ] raise: Error. "Not started"
 	
 	round start.
 	self assert: round players size = 2.

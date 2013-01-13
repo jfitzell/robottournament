@@ -6,9 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
+		"playSemaphore",
 		"stillToPlay",
-		"played" ],
-	"name" : "RTDummyGameRunner",
+		"played",
+		"playAllSemaphore" ],
+	"name" : "RTDummyRoundRunner",
 	"pools" : [
 		 ],
 	"super" : "Object",

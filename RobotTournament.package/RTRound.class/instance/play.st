@@ -1,9 +1,10 @@
 running
 play
-	self ensureNotStarted.
+	self ensureNotEnded.
+	state = #playing ifTrue: [ self errorStarted ].
 	
-	state := #started.
+	state := #playing.
 	players := OrderedCollection withAll: self tournament players.
 	games := self tournament game allForRound: self.
-	runner runAll: games.
+	runner playAll: games.
 	state := #ended

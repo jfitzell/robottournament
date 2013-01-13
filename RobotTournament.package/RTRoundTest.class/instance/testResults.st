@@ -4,19 +4,15 @@ testResults
 	a := tournament addPlayer: (RTPlayer forTesting).
 	b := tournament addPlayer: (RTPlayer forTesting).
 	c := tournament addPlayer: (RTPlayer forTesting).
-	round runner: (runner := RTDummyGameRunner new).
+	round runner: (runner := RTDummyRoundRunner new).
 	
 	self should: [ round results ] raise: Error. "Not started"
 	
-	round start.
-	
-	self assert: runner games size = 6.
-
 	a runner response: 'rock'.
 	b runner response: 'rock'.
 	c runner response: 'scissors'.
-	
-	runner runAll.
+
+	round play.
 	
 	results := round results.
 	self assert: (results at: a) = 8.

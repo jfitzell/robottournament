@@ -1,4 +1,5 @@
-running
+private
 ensureNotStarted
 	self ensureNotEnded.
-	self hasStarted ifTrue: [ self error: 'Round has already started' ].
+	self hasStarted
+		ifTrue: [ self errorStarted ]
