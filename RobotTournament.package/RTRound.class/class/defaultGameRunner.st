@@ -1,3 +1,3 @@
 defaults
 defaultGameRunner
-	^ RTDummyRoundRunner new
+	^ RTDummyGameRunner new

@@ -10,7 +10,7 @@
 		"stillToPlay",
 		"played",
 		"playAllSemaphore" ],
-	"name" : "RTDummyRoundRunner",
+	"name" : "RTDummyGameRunner",
 	"pools" : [
 		 ],
 	"super" : "Object",

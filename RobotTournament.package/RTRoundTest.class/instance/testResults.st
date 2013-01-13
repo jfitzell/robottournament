@@ -4,7 +4,7 @@ testResults
 	a := tournament addPlayer: (RTPlayer forTesting).
 	b := tournament addPlayer: (RTPlayer forTesting).
 	c := tournament addPlayer: (RTPlayer forTesting).
-	round runner: (runner := RTDummyRoundRunner new).
+	round runner: (runner := RTDummyGameRunner new).
 	
 	self should: [ round results ] raise: Error. "Not started"
 	

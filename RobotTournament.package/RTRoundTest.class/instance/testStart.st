@@ -3,7 +3,7 @@ testStart
 	| runner a b |
 	a := tournament addPlayer: (RTPlayer forTesting).
 	b := tournament addPlayer: (RTPlayer forTesting).
-	round runner: (runner := RTDummyRoundRunner new).
+	round runner: (runner := RTDummyGameRunner new).
 	self deny: round hasStarted.
 	self deny: round hasEnded.
 	runner pause: [.
