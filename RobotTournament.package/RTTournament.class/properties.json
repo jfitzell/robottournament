@@ -14,7 +14,7 @@
 		"interval",
 		"nextStart",
 		"pausedTimeRemaining",
-		"game" ],
+		"gameClass" ],
 	"name" : "RTTournament",
 	"pools" : [
 		 ],

@@ -1,3 +1,4 @@
 tests
 testNew
-	self should: [ RTPlayer new ] raise: Error
+	player := RTPlayer new.
+	self assert: player name isString

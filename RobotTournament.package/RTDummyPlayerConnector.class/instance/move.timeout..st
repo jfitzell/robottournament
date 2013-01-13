@@ -1,4 +1,4 @@
 running
 move: stateString timeout: timeoutMilliseconds
-	requests add: stateString.
+	requests add: (Array with: stateString with: timeoutMilliseconds).
 	^ response
