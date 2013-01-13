@@ -1,7 +1,7 @@
 running
 move: stateString timeout: timeoutMilliseconds
 	| time move client |
-	client := ZnClient new timeout: (timeoutMilliseconds / 1000); yourself.
+	client := ZnClient new beOneShot; timeout: (timeoutMilliseconds / 1000); yourself.
 	
 	time := Time millisecondsToRun: [
 		[ move := client get: ((ZnUrl fromString: url) ? ('state' -> stateString)) ]
