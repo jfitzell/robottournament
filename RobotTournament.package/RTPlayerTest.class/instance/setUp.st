@@ -1,4 +1,4 @@
 setup
 setUp
 	super setUp.
-	player := RTPlayer named: self playerName url: self playerUrl
+	player := RTPlayer named: self playerName

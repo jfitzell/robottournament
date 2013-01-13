@@ -9,5 +9,5 @@ move: player direction: move
 	tile = $* ifTrue: [ RTWallCollision signal ].
 	(positions anySatisfy: [ :each | each = newPosition ]) ifTrue: [ RTPlayerCollision signal ].
 	
-	tile = $F ifTrue: [ RTPlayerWin signal ].
-	positions at: player put: newPosition
+	positions at: player put: newPosition.
+	tile = $F ifTrue: [ RTPlayerWin signal ]

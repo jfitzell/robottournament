@@ -7,10 +7,10 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"winner",
-		"maxRounds",
-		"currentRound",
 		"forfeit",
-		"maze" ],
+		"maze",
+		"maxTurns",
+		"currentTurn" ],
 	"name" : "RTMazeGame",
 	"pools" : [
 		 ],

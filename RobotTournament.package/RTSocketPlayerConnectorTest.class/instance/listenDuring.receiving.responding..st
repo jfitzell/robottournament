@@ -11,8 +11,8 @@ listenDuring: connectorBlock receiving: stateBlock responding: moveBlock
 			(moveBlock isBlock and: [ moveBlock argumentCount = 1 ])
 				ifTrue: [ moveBlock value: serverSocket ]
 				ifFalse: [ serverSocket sendData: moveBlock value ] ]
-					ensure: [ serverSocket close; destroy ] ] ] fork.
+					ensure: [ serverSocket closeAndDestroy: 1 ] ] ] fork.
 	connectorBlock value: listener localPort ]
 		ensure: [
-			listener close; destroy.
+			listener closeAndDestroy: 1.
 			listenProcess ifNotNil: [ listenProcess terminate ] ]

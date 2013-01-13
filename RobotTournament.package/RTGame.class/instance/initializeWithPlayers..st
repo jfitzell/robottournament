@@ -1,4 +1,5 @@
 initialization
 initializeWithPlayers: anOrderedCollection
 	self initialize.
-	players := anOrderedCollection
+	players := anOrderedCollection.
+	self clearResults

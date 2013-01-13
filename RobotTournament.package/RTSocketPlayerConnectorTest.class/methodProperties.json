@@ -2,13 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
-		"listenDuring:receiving:responding:" : "jf 12/16/2012 23:57",
+		"listenDuring:receiving:responding:" : "jf 12/17/2012 23:47",
 		"testDelay" : "jf 12/17/2012 00:08",
 		"testExcessiveDelay" : "jf 12/17/2012 00:18",
 		"testHost" : "jf 12/16/2012 19:48",
 		"testHostInvalid" : "jf 12/16/2012 19:36",
 		"testHostUnreachable" : "jf 12/16/2012 19:51",
 		"testHostUnresolvable" : "jf 12/16/2012 19:38",
+		"testNewErrors" : "jf 12/20/2012 08:36",
+		"testPlayerConfiguration" : "jf 12/20/2012 08:30",
 		"testPort" : "jf 12/16/2012 19:47",
 		"testPortClosed" : "jf 12/16/2012 19:25",
 		"testReceiveTimeout" : "jf 12/16/2012 19:25",
