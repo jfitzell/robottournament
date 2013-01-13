@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 keyForTournament: aTournament
 	^ self tournaments keyAtValue: aTournament

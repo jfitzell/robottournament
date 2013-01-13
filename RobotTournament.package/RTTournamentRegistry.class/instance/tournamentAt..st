@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 tournamentAt: anInteger
 	^ self tournaments at: anInteger
