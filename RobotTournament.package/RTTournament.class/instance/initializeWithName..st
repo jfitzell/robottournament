@@ -4,6 +4,4 @@ initializeWithName: aString
 	name := aString.
 	players := Set new.
 	rounds := #().
-	length := self class defaultLength.
-	interval := self class defaultInterval.
 	clock := DateAndTime

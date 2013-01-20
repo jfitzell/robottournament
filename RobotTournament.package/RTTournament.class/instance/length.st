@@ -1,3 +1,3 @@
 accessing
 length
-	^ length
+	^ length ifNil: [ length := self class defaultLength ]

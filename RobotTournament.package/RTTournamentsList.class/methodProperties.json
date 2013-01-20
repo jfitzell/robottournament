@@ -4,5 +4,8 @@
 		"new" : "NickAger 1/13/2013 17:36" },
 	"instance" : {
 		"initializeWithTournaments:" : "NickAger 1/13/2013 17:09",
-		"renderContentOn:" : "NickAger 1/13/2013 17:34",
-		"selectorDictionary" : "NickAger 1/13/2013 17:26" } }
+		"renderContentOn:" : "jf 1/20/2013 18:57",
+		"renderCreateFormOn:" : "jf 1/20/2013 18:57",
+		"renderTournamentListOn:" : "jf 1/20/2013 17:36",
+		"selectorDictionary" : "jf 1/20/2013 17:35",
+		"urlForTournament:" : "jf 1/20/2013 17:23" } }

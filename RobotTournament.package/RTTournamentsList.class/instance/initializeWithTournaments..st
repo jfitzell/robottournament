@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 initializeWithTournaments: someTournaments 
 	self initialize.
 	tournaments := someTournaments.

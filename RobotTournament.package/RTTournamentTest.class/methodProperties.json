@@ -3,9 +3,11 @@
 		 },
 	"instance" : {
 		"setUp" : "jf 12/14/2012 09:45",
-		"testGame" : "jf 11/28/2012 22:58",
+		"testGame" : "jf 1/20/2013 22:30",
+		"testInterval" : "jf 1/20/2013 22:37",
 		"testKicking" : "jf 12/15/2012 08:27",
 		"testName" : "jf 11/28/2012 09:33",
+		"testNew" : "jf 1/20/2013 17:33",
 		"testPlayers" : "jf 11/29/2012 09:54",
 		"testResults" : "jf 12/15/2012 09:56",
 		"testRounds" : "jf 12/9/2012 14:45",

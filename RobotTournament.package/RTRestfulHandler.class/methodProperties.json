@@ -2,13 +2,18 @@
 	"class" : {
 		"initialize" : "NickAger 1/13/2013 13:29" },
 	"instance" : {
-		"htmlTournaments" : "NickAger 1/13/2013 17:34",
+		"createTournament" : "jf 1/20/2013 18:45",
+		"editTournament:" : "jf 1/20/2013 22:34",
+		"htmlCreateTournament" : "jf 1/20/2013 18:47",
+		"htmlEditTournament:" : "jf 1/20/2013 22:22",
+		"htmlTournament:" : "jf 1/20/2013 18:55",
+		"htmlTournaments" : "jf 1/20/2013 17:18",
 		"idForTournament:" : "jf 1/13/2013 16:00",
-		"jsonCreateTournament" : "jf 1/13/2013 16:33",
+		"jsonCreateTournament" : "jf 1/20/2013 18:38",
 		"jsonNotFound" : "jf 1/20/2013 15:23",
 		"jsonTournament:" : "jf 1/20/2013 15:28",
 		"jsonTournaments" : "jf 1/13/2013 16:16",
-		"renderHtmlComponent:" : "jf 1/13/2013 19:51",
+		"renderHtmlComponent:" : "jf 1/20/2013 18:33",
 		"tournamentRegistry" : "jf 1/13/2013 15:49",
 		"tournamentWithId:ifAbsent:" : "jf 1/20/2013 14:52",
 		"urlForTournament:" : "jf 1/13/2013 15:34" } }
