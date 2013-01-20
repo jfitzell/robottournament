@@ -1,4 +1,4 @@
-routes-tournaments
+helpers
 renderHtmlComponent: component
 	^ WAHtmlCanvas builder
 		fullDocument: true;
@@ -6,4 +6,4 @@ renderHtmlComponent: component
 			JQDevelopmentLibrary default updateRoot: root.
 			TWBSDevelopmentLibrary default updateRoot: root.
 			(WAVisiblePresenterGuide client: (WAUpdateRootVisitor root: root)) start: component ];
-		render: component
+		render: (component addDecoration: TWBSBootstrapDecoration new; yourself)
