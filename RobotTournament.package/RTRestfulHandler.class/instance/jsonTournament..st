@@ -4,4 +4,4 @@ jsonTournament: id
 	<path: 'tournaments/id/{id}'>
 	<produces: 'application/json'>
 
-	^ (self tournamentWithId: id) jsonDictionary asJson
+	^ (self tournamentWithId: id ifAbsent: [ self jsonNotFound ]) jsonDictionary asJson
