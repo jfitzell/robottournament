@@ -1,6 +1,6 @@
-helpers
+urls
 urlForTournament: aTournament 
-	^ self url
-		addAllToPath: #('tournaments' 'id');
+	^ self tournamentsUrl
+		addToPath: 'id';
 		addToPath: (self idForTournament: aTournament );
 		yourself

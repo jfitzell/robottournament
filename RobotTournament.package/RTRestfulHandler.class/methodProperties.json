@@ -26,11 +26,13 @@
 		"jsonTournaments" : "jf 1/21/2013 07:12",
 		"noContent" : "jf 1/21/2013 14:20",
 		"playerWithId:inTournamentWithId:ifAbsent:" : "jf 1/21/2013 10:15",
+		"playersUrlForTournament:" : "jf 1/21/2013 20:36",
 		"redirectToPlayer:inTournament:" : "jf 1/21/2013 09:39",
 		"redirectToTournament:" : "jf 1/21/2013 09:34",
 		"renderHtmlComponent:" : "jf 1/21/2013 06:50",
 		"renderJsonComponent:" : "jf 1/21/2013 06:50",
 		"tournamentRegistry" : "jf 1/13/2013 15:49",
 		"tournamentWithId:ifAbsent:" : "jf 1/20/2013 14:52",
-		"urlForPlayer:inTournament:" : "jf 1/21/2013 08:08",
-		"urlForTournament:" : "jf 1/13/2013 15:34" } }
+		"tournamentsUrl" : "jf 1/21/2013 20:37",
+		"urlForPlayer:inTournament:" : "jf 1/21/2013 20:37",
+		"urlForTournament:" : "jf 1/21/2013 20:33" } }

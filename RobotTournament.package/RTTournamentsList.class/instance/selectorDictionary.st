@@ -1,4 +1,4 @@
-as yet unclassified
+helpers
 selectorDictionary
 	^ GRSmallDictionary new
 		at: 'name' put: [ :tournament :html | html anchor url: (self urlForTournament: tournament); with: tournament name ];
