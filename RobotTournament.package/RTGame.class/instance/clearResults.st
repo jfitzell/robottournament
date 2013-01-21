@@ -1,3 +1,3 @@
 running
 clearResults
-	results := IdentityDictionary newFrom: (self players collect: [ :each | each -> 0 ])
+	^ results := IdentityDictionary newFrom: (self players collect: [ :each | each -> 0 ])

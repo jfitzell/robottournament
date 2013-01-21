@@ -3,6 +3,7 @@
 		"initialize" : "NickAger 1/13/2013 13:29" },
 	"instance" : {
 		"actionInspectPlayer:inTournament:" : "jf 1/21/2013 14:20",
+		"actionInspectTournament:" : "jf 1/21/2013 21:09",
 		"createPlayerInTournament:" : "jf 1/21/2013 08:10",
 		"createTournament" : "jf 1/20/2013 18:45",
 		"editPlayer:" : "jf 1/21/2013 15:06",
