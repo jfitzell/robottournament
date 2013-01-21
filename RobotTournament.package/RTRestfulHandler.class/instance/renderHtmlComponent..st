@@ -1,6 +1,6 @@
 helpers
 renderHtmlComponent: component
-	^ WAHtmlCanvas builder
+	^ component rendererClass builder
 		fullDocument: true;
 		rootBlock: [ :root | 
 			JQDevelopmentLibrary default updateRoot: root.

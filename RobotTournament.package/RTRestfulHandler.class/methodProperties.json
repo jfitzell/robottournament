@@ -11,9 +11,10 @@
 		"idForTournament:" : "jf 1/13/2013 16:00",
 		"jsonCreateTournament" : "jf 1/20/2013 18:38",
 		"jsonNotFound" : "jf 1/20/2013 15:23",
-		"jsonTournament:" : "jf 1/20/2013 15:28",
-		"jsonTournaments" : "jf 1/13/2013 16:16",
-		"renderHtmlComponent:" : "jf 1/20/2013 23:56",
+		"jsonTournament:" : "jf 1/21/2013 06:49",
+		"jsonTournaments" : "jf 1/21/2013 07:12",
+		"renderHtmlComponent:" : "jf 1/21/2013 06:50",
+		"renderJsonComponent:" : "jf 1/21/2013 06:50",
 		"tournamentRegistry" : "jf 1/13/2013 15:49",
 		"tournamentWithId:ifAbsent:" : "jf 1/20/2013 14:52",
 		"urlForTournament:" : "jf 1/13/2013 15:34" } }

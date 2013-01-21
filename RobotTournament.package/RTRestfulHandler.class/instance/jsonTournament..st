@@ -4,4 +4,4 @@ jsonTournament: id
 	<path: 'tournaments/id/{id}'>
 	<produces: 'application/json'>
 
-	^ (self tournamentWithId: id ifAbsent: [ self jsonNotFound ]) jsonDictionary asJson
+	^ self renderJsonComponent: (RTJsonTournamentView forTournament: (self tournamentWithId: id ifAbsent: [ self jsonNotFound ]))
