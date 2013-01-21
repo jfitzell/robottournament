@@ -2,6 +2,6 @@ initialization
 initializeWithName: aString 
 	self initialize.
 	name := aString.
-	players := Set new.
+	players := OrderedCollection new.
 	rounds := #().
 	clock := DateAndTime

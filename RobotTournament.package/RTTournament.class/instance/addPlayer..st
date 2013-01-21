@@ -1,3 +1,3 @@
 accessing
 addPlayer: aPlayer 
-	^ players add: aPlayer
+	^ (players includes: aPlayer) ifFalse: [ players add: aPlayer ]
